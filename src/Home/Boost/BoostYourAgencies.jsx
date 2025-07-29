@@ -36,7 +36,7 @@ const BoostYourAgencies = () => {
           src={BoostImage}
           alt="Banner image"
         />
-        {/* <div className="bg-[#f0fbff] size-[532px] absolute bottom-0 z-10"></div> */}
+        <div className="bg-[#f0fbff] md:size-[520px] size-[250px]  sm:size-[420px] rounded-[50%] absolute bottom-0 z-10"></div>
       </div>
     </div>
   );

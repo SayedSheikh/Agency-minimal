@@ -2,6 +2,7 @@ import "./App.css";
 import BoostYourAgencies from "./Home/Boost/BoostYourAgencies";
 import CustomerComments from "./Home/CustomerComments/CustomerComments";
 import FeatureSection from "./Home/Features/FeatureSection";
+import Footer from "./Home/Footer/Footer";
 import Hero from "./Home/Hero/Hero";
 import HireDevelopers from "./Home/HireDevelopers/HireDevelopers";
 import LeadingCompanies from "./Home/LeadingCompanies.jsx/LeadingCompanies";
@@ -25,6 +26,7 @@ function App() {
         <Support />
         <QualityFeatures />
         <HireDevelopers />
+        <Footer />
       </main>
     </>
   );

@@ -24,7 +24,7 @@ const HireDevelopers = () => {
             alt="top line"
             className="w-[72px] h-[25px] object-cover"
           />
-          <button className="bg-white text-[#8D448B] font-bold px-6 py-3 rounded-md shadow hover:scale-105 transition duration-300 tracking-[10%]">
+          <button className="bg-white text-[#8D448B] font-bold px-6 py-3 rounded-md shadow hover:scale-105 transition duration-300 tracking-[10%] cursor-pointer">
             HIRE DEVELOPERS
           </button>
           <img
