@@ -27,7 +27,7 @@ const BoostYourAgencies = () => {
             <img src={tick} alt="Check" /> Easy to customize plugins
           </li>
         </ul>
-        <ExploreMore />
+        <ExploreMore label={"Learn more"} margin={true} />
       </div>
       {/* banner Image */}
       <div className="w-full lg:w-1/2 relative ">

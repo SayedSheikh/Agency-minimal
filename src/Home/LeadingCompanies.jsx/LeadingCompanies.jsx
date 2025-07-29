@@ -12,7 +12,9 @@ const LeadingCompanies = () => {
         We believe it's important for everyone to have access to software
         especially when it comes to digital learning be navigate.
       </p>
-      <ExploreMore className="flex justify-center mb-[50px]"></ExploreMore>
+      <ExploreMore
+        className="flex justify-center mb-[50px]"
+        label="Explore more"></ExploreMore>
       <div>
         <img className="w-full" src={videoImg} alt="Video" />
       </div>

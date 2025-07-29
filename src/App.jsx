@@ -5,6 +5,8 @@ import FeatureSection from "./Home/Features/FeatureSection";
 import Hero from "./Home/Hero/Hero";
 import LeadingCompanies from "./Home/LeadingCompanies.jsx/LeadingCompanies";
 import Navbar from "./Home/Navbar/Navbar";
+import QualityFeatures from "./Home/QualityFeatures/QualityFeatures";
+import Support from "./Home/Support/Support";
 import Container from "./Utilities/Container";
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <BoostYourAgencies />
         <LeadingCompanies />
         <CustomerComments />
+        <Support />
+        <QualityFeatures />
       </main>
     </>
   );
