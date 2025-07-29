@@ -26,8 +26,10 @@ function App() {
         <Support />
         <QualityFeatures />
         <HireDevelopers />
-        <Footer />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
