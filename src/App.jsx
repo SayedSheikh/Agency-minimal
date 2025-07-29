@@ -3,6 +3,7 @@ import BoostYourAgencies from "./Home/Boost/BoostYourAgencies";
 import CustomerComments from "./Home/CustomerComments/CustomerComments";
 import FeatureSection from "./Home/Features/FeatureSection";
 import Hero from "./Home/Hero/Hero";
+import HireDevelopers from "./Home/HireDevelopers/HireDevelopers";
 import LeadingCompanies from "./Home/LeadingCompanies.jsx/LeadingCompanies";
 import Navbar from "./Home/Navbar/Navbar";
 import QualityFeatures from "./Home/QualityFeatures/QualityFeatures";
@@ -23,6 +24,7 @@ function App() {
         <CustomerComments />
         <Support />
         <QualityFeatures />
+        <HireDevelopers />
       </main>
     </>
   );
