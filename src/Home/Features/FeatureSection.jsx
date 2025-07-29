@@ -45,7 +45,7 @@ const FeatureSection = () => {
       <h2 className="text-center font-bold text-[30px] leading-[55px] font-dmSans">
         Meet exciting feature of app
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-[78px] gap-[60px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-[78px] gap-[60px] ">
         {features.map((item, index) => (
           <FeatureCard key={index} item={item}></FeatureCard>
         ))}
