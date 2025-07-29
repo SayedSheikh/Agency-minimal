@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import "tailwindcss";
 @plugin "daisyui" {
   themes: light --default;
@@ -6,7 +6,7 @@
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  color-scheme: light; /* color of browser-provided UI */
+  color-scheme: light;
 
   --color-primary: #8d448b;
 }
@@ -14,4 +14,5 @@
 @theme {
   --font-dmSans: "DM Sans", sans-serif;
   --font-pacifico: "Pacifico", cursive;
+  --font-playFair: "Playfair Display", serif;
 }

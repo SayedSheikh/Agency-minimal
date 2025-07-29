@@ -1,5 +1,6 @@
 import "./App.css";
 import BoostYourAgencies from "./Home/Boost/BoostYourAgencies";
+import CustomerComments from "./Home/CustomerComments/CustomerComments";
 import FeatureSection from "./Home/Features/FeatureSection";
 import Hero from "./Home/Hero/Hero";
 import LeadingCompanies from "./Home/LeadingCompanies.jsx/LeadingCompanies";
@@ -17,6 +18,7 @@ function App() {
         <FeatureSection />
         <BoostYourAgencies />
         <LeadingCompanies />
+        <CustomerComments />
       </main>
     </>
   );
